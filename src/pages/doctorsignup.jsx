@@ -1,7 +1,8 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState,} from "react";
 import WeeklySchedule from "../componats/cal";
 
 const DocSignup = () => {
+  
   const [specializations] = useState([
     "General Medicine",
     "Internal Medicine",
@@ -135,6 +136,7 @@ const DocSignup = () => {
             <button
               type="submit"
               className="w-10p bg-black text-white py-2 px-4 rounded-lg"
+              
               
             >
               Submit

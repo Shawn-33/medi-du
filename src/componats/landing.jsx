@@ -1,6 +1,6 @@
 import React from 'react';
-import Hero from '../componats/hero';
-import House from '../componats/house';
+import Hero from './hero';
+import House from './house';
 
 const LandingPage = () =>{
     return(
